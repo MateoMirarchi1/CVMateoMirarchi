@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(84, 158, 226, 1);
+    min-width: 250px;
+}
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h2  {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: rgba(15, 129, 235, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 75px;
+}
+.textoheader{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 35px;
+  }
+nav ul li{
+    background-color: rgba(84, 158, 226, 1);
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    }
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.titulos{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cajatxt{
+    font-size: large;
+    font-family: italic black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 5%;
+    background-color:rgba(15, 129, 235, 1);
+    width: 75%;
+    height: auto;
+    font-weight: 600;
+}
+.contenedor{
+    margin-left: 15%;
+    background-color: rgba(27, 120, 206, 1);
+    margin-right: 15%;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer{
+    height: auto;
+    background: rgba(16, 90, 158, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: white;
+}
