@@ -38,3 +38,4 @@ if (player == enemigo) {
 } else {
     alert ('PERDISTE')
 }
+
